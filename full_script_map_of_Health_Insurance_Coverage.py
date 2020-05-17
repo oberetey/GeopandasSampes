@@ -65,6 +65,7 @@ states["pct_insured"] = 100 * (states["insured_total"]/states["total"])
 print(states)
 
 # now we will perform join are collected data to shapefile with geopandas.
+
 # step 1 pull shapefile data
 # Use the read_file method of geopandas 
 # To load the file "l_2017_us_state.shp"
